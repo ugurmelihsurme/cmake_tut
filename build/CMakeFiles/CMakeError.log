@@ -1,0 +1,23 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/github/cmake_tut/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devEnv/msys64/usr/bin/ninja.exe cmTC_e2f91 && [1/2] Building C object CMakeFiles/cmTC_e2f91.dir/CMakeCCompilerABI.c.obj
+FAILED: CMakeFiles/cmTC_e2f91.dir/CMakeCCompilerABI.c.obj 
+D:\devEnv\msys64\usr\bin\gcc.exe   -v -o CMakeFiles/cmTC_e2f91.dir/CMakeCCompilerABI.c.obj -c 'D:/devEnv/cmake/share/cmake-3.18/Modules/CMakeCCompilerABI.c'
+/bin/sh: D:devEnvmsys64usrbingcc.exe: command not found
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/github/cmake_tut/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devEnv/msys64/usr/bin/ninja.exe cmTC_56f01 && [1/2] Building C object CMakeFiles/cmTC_56f01.dir/testCCompiler.c.obj
+FAILED: CMakeFiles/cmTC_56f01.dir/testCCompiler.c.obj 
+D:\devEnv\msys64\usr\bin\gcc.exe    -o CMakeFiles/cmTC_56f01.dir/testCCompiler.c.obj -c testCCompiler.c
+/bin/sh: D:devEnvmsys64usrbingcc.exe: command not found
+ninja: build stopped: subcommand failed.
+
+
+
